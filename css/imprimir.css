@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document para impresora  by Plusweb Soluciones Tecnologicas www.plusweb.cl - 22/04/2013 */
+
+#Superior, .breadcrumbs, #Footer, #imprimir, .sidebarPage, #pasos, .alert-danger, #botoneraCarro, .carroActualizar, .carroRemover, #Mfabricante, #Mbarra{
+	visibility: hidden !important;
+	display: none !important;
+}
+
+h1 {
+	text-shadow: none !important;
+	margin-top: 0 !important;
+	color: #262525 !important;
+}
+
+#WebPage .align .texto table td.title {
+	text-shadow: none !important;
+}
+
+#WebPage .align .texto table thead td {
+	text-shadow: none !important;
+}
+
+.listProductos{
+	margin: 0 0 0 0 !important;
+	padding: 0 0 0 0 !important;
+	width: 100% !important;
+}
+
+#Logo{
+	float: right;
+	position: absolute;
+	height: 38px;
+	width: 160px;
+	visibility: visible !important;
+	display: block !important;	
+	margin-left: 78%;
+}

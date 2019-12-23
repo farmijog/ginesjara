@@ -1,0 +1,111 @@
+.image_carousel{
+	margin: 2px 0 0 0;
+	padding: 0 0 0 20px;
+	position: relative; 
+}
+
+.image_carousel a {
+    display: block;
+    float: left;
+    transition: none; -moz-transition: none; -webkit-transition: none; -o-transition: none;
+}
+
+.image_carousel a.prev{
+	background: url(images/ico-image_carouselPrev.png) no-repeat;
+	width: 29px;
+	height: 29px;
+	display: block;
+	position: absolute;
+	top: 83px;
+}
+.image_carousel a.prev {
+	left: -8px;
+	background-position: top;
+}
+.image_carousel a.prev:hover {		background-position: bottom; }
+.image_carousel a.prev.disabled {	background-position: top; opacity: 0.4; }
+
+
+.image_carousel a.next {
+	background: url(images/bg-image_carouselNext.png) no-repeat;
+	width: 29px;
+	height: 29px;
+	display: block;
+	position: absolute;
+	top: 83px;
+}
+
+.image_carousel a.next {
+	right: -8px; 
+	background-position: top;
+	}
+
+.image_carousel a.next:hover {		background-position: bottom; }
+.image_carousel a.next.disabled {	background-position: top; opacity: 0.4; }
+
+.image_carousel a.prev.disabled, a.next.disabled {
+	cursor: default;
+}
+
+.image_carousel a.prev span, a.next span {
+	display: none;
+}
+.image_carousel .pagination {
+	text-align: center;
+	float: none; margin-top:10px;
+}
+.image_carousel .pagination a {
+	background: url(images/miscellaneous_sprite.png) 0 -300px no-repeat transparent;
+	width: 15px;
+	height: 15px;
+	margin: 0 5px 0 0;
+	display: inline-block;
+	float: none
+}
+.image_carousel .pagination a.selected {
+	background-position: -25px -300px;
+	cursor: default;
+}
+.image_carousel .pagination a span {
+	display: none;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}
+
+
+.itemDestacado{
+	background: url(images/bg-itemDestacado.png) no-repeat;
+	border-radius: 4px; -moz-border-radius: 4px;
+	float: left;
+	height: 180px; 
+	margin: 0 10px 5px 10px;
+	width: 200px;
+}
+
+	.itemDestacado .foto{
+		background: white;
+		float: left;
+		height: 120px;
+		margin: 10px 10px 5px 10px;
+		padding: 0 0;
+		text-align: center;
+		width: 180px;
+	}
+	
+	.itemDestacado .foto img {
+		width: 180px;
+		height: 120px;
+	}
+	
+	.itemDestacado .titulo{
+		color: #020100;
+		float: left;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 13px;
+		font-weight: 700px;
+		margin: 0 10px;
+		text-align: center;
+		width: 180px;
+	}

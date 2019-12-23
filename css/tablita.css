@@ -1,0 +1,12 @@
+table.tablauwu {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.tablauwu td, table.tablauwu th {
+  padding: 3px 2px;
+}
+table.tablauwu tfoot td {
+  font-size: 10px;
+}

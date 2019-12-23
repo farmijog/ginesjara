@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* 
+CSS Document 
+Usado en Plugin de validacion jquery
+js/vanadium.min.js
+*/
+ 
+div.vanadium-invalid {
+  border-color: red !important;
+  border-style: solid !important;
+}
+ 
+div.vanadium-valid {
+  border-color: green !important;
+  border-style: solid !important;
+}
+ 
+.vanadium-message-value {
+  font-style: italic;
+  text-decoration: underline;
+}
+ 
+.vanadium-advice.vanadium-invalid, .vanadium-advice.vanadium-invalid * {
+  color: red;
+  font-size:13px;
+  margin-left: 2px;
+}
+
+/*
+input {
+  border: 1px solid #BF8033;
+  height:20px;
+  font-size:13px; padding:2px;
+  background:url(images/form_input_fondo.jpg) repeat-x;
+ -moz-border-radius: 6px;
+ -webkit-border-radius: 6px;  
+}
+ 
+select {
+  border: 2px solid #FFA20C;  
+
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;  
+ -moz-border-radius-topright: 0px; 
+ -moz-border-radius-bottomright: 0px;	
+ -webkit-border-radius-topright: 0px; 
+ -webkit-border-radius-bottomright: 0px;	
+} 
+*/ 
+input.vanadium-valid {
+  border: 1px solid #8cc093;  
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;  
+  
+}
+ 
+input.vanadium-invalid {
+ border: 1px solid #de6565;  	
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;  
+  
+}
+ 
+#messages {
+  height: 70px;
+  padding: 0;
+  border-color: yellow;
+}
+ 
+input.vanadium-valid ~ .vanadium-valid-advice {
+  display: inline !important;
+  color: green;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;  
+}
+

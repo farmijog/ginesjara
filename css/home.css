@@ -1,0 +1,275 @@
+@charset "utf-8";
+/* HOME CSS Document - 10/01/2012 by Plusweb Soluciones Tecnologicas www.plusweb.cl */
+
+/* HOME LAYOUT 
+___________________*/
+
+#container{
+	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+	float: left;
+	height: 500px;
+	margin: 0;
+	width: 952px; 
+}
+
+.bottomMenu{
+	height: ;
+	width: 950px;	
+}
+
+#DestacadosHome{
+	float: left;
+	height: 553px;
+	margin: 0 0 0 0;
+	width: 950px;
+}
+
+	#DestacadosHome .slide{
+		height: 310px;
+		position: absolute;
+		width: 950px;
+		z-index: 1;
+	}
+	
+	#DestacadosHome .pestanas{
+		height: 255px;
+		margin: 298px 0 0 0;
+		position: absolute;
+		width: 950px;
+		z-index: 2;
+	}
+
+#FeaturedHome{
+	clear: both;
+	color: white;
+	font-style: italic;
+	height: 204px;
+	margin:0 auto;
+	overflow: visible;
+	text-align: left;
+	min-width: 950px;
+	width: 100%;
+}
+
+	#FeaturedHome .align{
+		background: url(images/bg-alignFeaturedHome.png) no-repeat center top;
+		clear:both;
+		height: 174px;
+		margin:0 auto;
+		overflow:hidden;
+		padding: 30px 0 0 0;
+		width: 950px;
+	}
+	
+		#FeaturedHome .align .FeaturedLinks{
+			float: left;
+			height: 174px;
+			margin: 0 0;
+			padding: 0 0;
+			width: 298px;
+		}
+
+			#FeaturedHome .align .FeaturedLinks .foto{
+				float: left;
+				height: 174px;
+				margin: 0;
+				padding: 0;
+				position: absolute;
+				width: 298px;
+				z-index: 1;
+			}
+			
+			#FeaturedHome .align .FeaturedLinks .texto{
+				background: rgba(0,0,0,.8);
+				color: white;
+				font-family: 'Open Sans', sans-serif;
+				font-size: 14px;
+				font-weight: 600;
+				height: 18px;
+				margin: 146px 0 0 0;
+				overflow: hidden;
+				padding: 5px 13px;
+				position: absolute;
+				text-decoration: none;
+				text-align: center;
+				z-index: 2;
+				width: 272px;
+			}
+			
+			#FeaturedHome .align .FeaturedLinks .texto .titulo{
+				color: white;
+				font-family: 'Open Sans', sans-serif;
+				font-size: 14px;
+			}
+				#FeaturedHome .align .FeaturedLinks .texto .titulo span.flecha{
+					background: url(images/bg-featuredTitulo.png) no-repeat right center;
+					padding: 0 20px 0 0;
+				}
+			
+			#FeaturedHome .align .FeaturedLinks .texto .info{
+				font-size:12px; margin-top:7px;				
+			}
+		
+		#FeaturedHome .align .sep{
+			margin-right: 28px;
+		}
+
+#MasInfo{
+	background: white;
+	clear: both;
+	color: white;
+	height: 372px;
+	margin:0 auto;
+	overflow: visible;
+	text-align: left;
+	min-width: 950px;
+	width: 100%;
+}
+
+	#MasInfo .align{
+		background: url(images/bg-alignMasInfo.png) no-repeat center top;
+		clear:both;
+		margin:0 auto; margin-top: 1px;
+		overflow:hidden;
+		padding: 54px 0 0 0;
+		width: 950px;
+	}	
+
+	#MasInfo .ancho{
+		background: url(images/bg-alignMasInfoWidth.png) no-repeat center top !important;
+	}	
+	
+		#MasInfo .align .novedades{
+			border-bottom: 4px solid #757575;
+			float: left;
+			height: 263px;
+			margin: 0 60px 0 0;
+			width: 590px;
+		}
+		
+			#MasInfo .align .novedades .titulo{
+				border-bottom: 1px solid #e2e3e3;
+				color: #515151;
+				float: left;
+				font-size: 16px;
+				font-weight: bold;
+				height: 31px;
+				margin: 0 0 13px 0;
+				padding: 0 0 0 16px;
+				width: 574px;
+			}
+			
+			#MasInfo .align .novedades .item{
+				color: #515151;
+				float: left;
+				height: 42px;
+				margin: 0 15px 12px 15px;
+				padding: 0 0 0 0;
+				width: 560px;
+			}
+				#MasInfo .align .novedades .item:hover{ background: #fafafa; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; }
+			
+				#MasInfo .align .novedades .item .fecha{
+					border-right: 1px solid #e2e3e3;
+					float: left;
+					font-family: helvetica;
+					height: 42px;
+					margin: 0 25px 0 0;
+					text-align: center;
+					width: 70px;
+				}
+				
+					#MasInfo .align .novedades .item .fecha .mes{
+						color: #595959;
+						float: left;
+						font-size: 10px;
+						font-weight: bold;
+						height: 10px;
+						margin: 3px 0;
+						width: 70px;
+					}
+					
+					#MasInfo .align .novedades .item .fecha .dia{
+						color: #a0a0a0;
+						float: left;
+						font-size: 26px;
+						font-weight: bold;
+						height: 26px;
+						width: 70px;
+					}
+					
+				#MasInfo .align .novedades .item .noticia{
+					float: left;
+					margin: 3px 0 0 0;
+					font-size: 12px;
+					width: 454px;
+				}
+				
+					#MasInfo .align .novedades .item .noticia a{
+						color: #333333;
+						text-decoration: none;
+					}
+					
+					#MasInfo .align .novedades .item .noticia a:hover{
+						color: #91c200;
+						text-decoration: none;
+					}
+		
+		#MasInfo .align .contactos{
+			border-bottom: 4px solid #757575;
+			float: left;
+			height: 263px;
+			margin: 0 0 0 0;
+			width: 300px;
+		}
+		
+			#MasInfo .align .contactos .titulo{
+				border-bottom: 1px solid #e2e3e3;
+				color: #515151;
+				float: left;
+				font-size: 16px;
+				font-weight: bold;
+				margin: 0 0 13px 0;
+				padding: 0 0 0 16px;
+				height: 31px;
+				width: 284px;
+			}
+			
+			#MasInfo .align .contactos .item{
+				background: url(images/bg-masInfoItem.png) no-repeat right center;
+				color: #515151;
+				float: left;
+				height: 42px;
+				margin: 0 15px 12px 15px;
+				padding: 0 0 0 0;
+				width: 270px;
+			}
+			
+			#MasInfo .align .contactos .item:hover{ background: #fafafa url(images/bg-masInfoItem.png) no-repeat right center; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; }
+			
+				#MasInfo .align .contactos .item .ico{
+					float: left;
+					height: 32px;
+					margin: 5px 10px 0 0;
+					width: 32px;
+				}
+				
+				#MasInfo .align .contactos .item .nombre{
+					float: left;
+					font-size: 13px;
+					font-weight: normal;
+					height: 32px;
+					margin: 5px 0 0 0;
+					width: 190px;
+				}
+				
+					#MasInfo .align .contactos .item .nombre a{
+						color: #333333;
+						text-decoration: none;
+					}
+					
+					#MasInfo .align .contactos .item .nombre a:hover{
+						color: #91c200;
+						text-decoration: none;
+					}

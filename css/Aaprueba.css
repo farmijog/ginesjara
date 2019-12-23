@@ -1,0 +1,18 @@
+.BUTTON_MZH {
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: 100;
+   padding: 19px;
+   background-color: #7A7A7A;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+}
+
+.BUTTON_MZH:hover {
+   background: #545454;
+   text-decoration: none;
+}
